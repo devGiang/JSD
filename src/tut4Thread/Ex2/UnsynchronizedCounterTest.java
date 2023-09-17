@@ -1,4 +1,4 @@
-package Ex2;
+package tut4Thread.Ex2;
 import java.util.Scanner;
 
 /**

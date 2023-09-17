@@ -78,6 +78,18 @@ abstract class Pizza {
     public String getName(){
        return this.getClass().getSimpleName();
     }
+    static class Topping{
+        String name;
+        int quantity;
+        int cost;
+
+        public Topping(String name, int quantity, int cost) {
+            this.name = name;
+            this.quantity = quantity;
+            this.cost = cost;
+        }
+    }
+
 
 
 }
